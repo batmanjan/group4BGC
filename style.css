@@ -1,6 +1,6 @@
 /* General styles */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Poppins', sans-serif;
     background-color: #f0f0f0;
     margin: 0;
     padding: 0;
@@ -70,18 +70,20 @@ input[type="text"], input[type="email"], input[type="password"] {
 }
 
 button {
-    padding: 10px;
-    background-color: #007bff;
+    font-family: 'Poppins', sans-serif;
+    padding: 10px 20px;
+    background: linear-gradient(45deg, #007bff, #17a2b8);
     color: #fff;
     border: none;
     border-radius: 4px;
     cursor: pointer;
     margin-top: 10px;
     width: 100%;
+    transition: background 0.3s ease;
 }
 
 button:hover {
-    background-color: #0056b3;
+    background: linear-gradient(45deg, #17a2b8, #6c757d);
 }
 
 p {
@@ -107,27 +109,15 @@ a:hover {
 
 .sidebar {
     width: 250px;
-    background-color: #007bff;
+    background: linear-gradient(180deg, #17a2b8, #007bff, #17a2b8);
     color: #fff;
     padding: 20px;
-}
-
-.profile {
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-.profile img {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    object-fit: cover;
-    margin-bottom: 10px;
 }
 
 .menu ul {
     list-style-type: none;
     padding: 0;
+    text-align: center;
 }
 
 .menu ul li {
@@ -182,8 +172,9 @@ a:hover {
 }
 
 .category h3 {
-    font-size: 1.5em;
-    color: #333;
+    font-size: 2em;
+    color:#007bff;
+    text-align: center;
     margin-bottom: 10px;
 }
 
